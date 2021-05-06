@@ -1,0 +1,132 @@
+*{box-sizing:content-box;}
+
+body{ font-family: sans-serif;}
+
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(25, 26, 25);
+}
+
+ header{
+    background: rgb(7, 7, 7);
+    background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(3, 3, 3) 100%);
+    padding: 1px; 
+ }
+ 
+ .nav {
+    overflow: hidden; 
+}   
+
+ .nav a{   
+    
+    display: block;
+    padding: 14px 16px;
+    text-align:left;
+    float:left;
+    color: rgba(239, 239, 247, 0.904);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial; 
+}
+
+#a1{
+    float: right;
+    margin-right:auto;
+}
+
+.nav a:hover{
+    background-color:rgb(234, 45, 252);
+     
+}
+
+
+.text{
+    padding: 10px 70px;
+    font:small-caption;
+    color: rgb(15, 1, 1);
+    background: rgb(22, 12, 212);
+    background: linear-gradient(90deg, rgb(241, 110, 23) 0%, rgb(232, 241, 230) 26%, rgb(21, 255, 0) 100%);
+    text-align: center;
+}
+
+
+.carousel{
+     
+    background: rgb(240, 240, 240);   
+}
+
+.col-auto{
+    color: rgb(17, 64, 175);
+    font-size:small;
+    text-align: center;
+}
+ 
+ 
+
+@media screen and (min-width: 768px) {
+    .carousel img{
+        height: 400px;
+         
+    }
+}
+    
+
+main {
+    
+    justify-content: center;
+    float: center;
+    text-align: center;
+    
+}
+
+.font{
+    padding: 10px 800px;
+    
+}
+.image-1{
+    padding: 15px;
+}
+main h2{
+    background-color: rgb(250, 225, 0);
+    border-radius: 15px;
+    overflow: hidden;
+    font-size:50px;
+    color: rgb(20, 20, 19);
+    font-style: bold;
+    
+}
+
+.text-font{
+    font-size:50px;
+}
+ 
+h6{
+    color:rgb(13, 14, 13);
+    font-style:italic;
+}
+
+.navbar{
+    float: right;
+    background: rgb(7, 7, 7);
+    background: radial-gradient(circle, rgb(3, 3, 3) 0%, rgb(8, 8, 8) 100%);
+}
+p{
+    margin: 15px;
+    font: bolder;
+}
+
+footer{
+    background-color: black;
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: rgb(255, 255, 255);
+}
+
+ 
